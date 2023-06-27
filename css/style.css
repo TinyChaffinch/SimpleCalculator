@@ -1,0 +1,50 @@
+body {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+}
+
+.corpus {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  width: 500px;
+  background-color: grey;
+}
+
+.disp {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 90%;
+  margin: 10px;
+}
+
+.userDisplay {
+  font-size: 24px;
+  padding: 10px;
+  width: 100%;
+}
+
+.btnBlock {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 10px;
+}
+
+.buttons {
+  font-size: 24px;
+  padding: 25px 45px;
+  cursor: pointer;
+  border: 1px solid;
+  background-color: darkgrey;
+}
